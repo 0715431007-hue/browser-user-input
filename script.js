@@ -9,3 +9,12 @@ function startExample() {
 
     alert("Is gold status? " + goldStatus);
 }
+
+function startExercise() {
+    let firstDie = prompt("First Die?");
+    let secondDie = prompt("Second Die?");
+
+    let rolledDoubles = firstDie == secondDie;
+
+    alert("Rolled Doubles? " + rolledDoubles);
+}
